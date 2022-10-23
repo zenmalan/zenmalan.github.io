@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="kaizenet">
+    <meta name="description" content="This page contains basic code practice for HTML">
+    <title>kaizent webpage</title>
+    <link rel="icon" href="html.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>My Space...</h1>
+        <p>Greetings Honourable one, welcome to my Space</p>
+        <div>
+            <nav>
+                <ul>
+                    <li>
+                        my computer
+                    </li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>
+                        my business orporations
+                    </li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>
+                        my Homework
+                    </li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="Coding.Projects.html"> Coding Projects</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="Winter">my vacations</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>
+                        my News
+                    </li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="Contact Me">contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <article>
+            <h2>Coding in html on <mark>VScode.</mark></h2>
+            <aside>
+                <details>
+                    <summary>Ghess How many hours i code a day <br>
+                        <a>I wake at 7am and Code 4 hours.</a>
+                    </summary>
+                </details>
+            </aside>
+            <div>
+                <p>This is an up to date practice of my lesson on my webpage</p>
+                <img src="img/blockchainMining.png" alt="workStation" title="miningData">
+            </div>
+            <section>
+                <h3>My Daily Schedule</h3>
+                <ol>
+                    <li>
+                        I practice everyday for atleast <em>two hours</em><br>
+                    </li>
+                    <li>
+                        I use <abbr title="Mozilla Develeper Network"><a href="https://developer.mozilla.org/">MDN </a></abbr> for my tasks and assignments
+                    </li>
+                </ol>
+            </section>
+            <br>
+        </article>
+        <section id="winter">
+            <h2>My Plans For Winter</h2>
+            <figure>
+                <img src="img/mambana.png" alt="Mambana Towers" title="outdoor places" width="300" height="300" loading="lazy">
+                <figcaption>
+                    Mambana Lokothayo Heritage Heights
+                </figcaption>
+            </figure>
+            <dl>
+                <dt>I want to travel down to the coastallands and take a break from the <em>big city life</em></dt>
+                <dd>I will miss my home sweet apartment where i have been living harmoniously for the past 7 years</dd>
+                <dt>Moving forward i really hope i can make a coastal tour till i reach Cape Town then take a flight back to my place at: 
+                    </dt>
+                <dd><address>
+                    Ruimsig Palms <br>1363 Cabernt street <br>willowbrook ext18 <br>Roodepoort 1724</address></dd>
+            </dl>
+        </section>
+        <article id="cantact">
+            <h2>Contact Me</h2>
+            <p>i would like to hear from you.</p>
+            <form action="https//:httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>My personal info</legend>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="psuedonymous" autocomplete="on" required><br>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="psuedonymous" autocomplete="on" required><br>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="your secret" required><br>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="0115552468" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required><br>
+                    <label for="dacade">Favuorite Decade:</label>
+                    <input type="number" name="dacade" id="dacade" min="1960" max="2020" step="10" value="2010">
+                    <label for="coffee">Favourite Coffee:</label>
+                    <select name="coffee" id="coffee" multipleSize="5">
+                            <optgroup label="coffee">
+                                <option value="whiteCoffee">white Coffee</option>
+                                <option value="regularCoffee">Regular Coffee</option>
+                            </optgroup>
+                            <optgroup label="Expressors">
+                                <option value="latte">Lattee</option>
+                                <option value="cuppaccino">Cuppuccino</option>
+                                <option value="iceCoffee">Ice Coffee</option>
+                                <option value="other">Other</option>
+                            </optgroup>
+                        </select>
+                </fieldset>
+                <!-- <label for="coffee">Favuorite Coffee:</label>
+                                                    <input type="text" name="coffee" id="coffe" list="coffee list">
+                                                        <datalist id="coffee list">
+                                                        <option value="white coffee">
+                                                        <option value="regular coffee">
+                                                        <option value="latte">
+                                                        <option value="cuppaccino">
+                                                        <option value="ice coffee">
+                                                        <option value="other">
+                                                    </datalist>
+                                                    </select></p>  -->
+
+                <fieldset>
+                    <legend>My Favourite Food</legend>
+
+                    <p><input type="radio" name="food" id="chicken meal" value="chicken meal">
+                        <label for="chicken meal">Chicken Meal</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="food" id="Spaggetti" value="Spaggetti">
+                        <label for="Spaggetti">Spaggetti</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="food" id="pizza" value="pizza">
+                        <label for="pizza">Pizza</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="food" id="greek salad" value="greek salad">
+                        <label for="greek salad">Greek Salad</label>
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Do you own pets</legend>
+                    <p>
+                        <input type="checkbox" name="pet" id="dog" value="dog">
+                        <label for="dog">Dog</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pet" id="cat" value="cat">
+                        <label for="cat">cat</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pet" id="parot" value="parot">
+                        <label for="parot">Parot</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pet" id="other" value="other">
+                        <label for="other">Other</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Send me a messege</legend>
+                    <label for="messege"></label>
+                    <p><textarea name="messege" id="messege" cols="30" rows="10" placeholder="type your messege here"></textarea></p>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                    <button type="submit" formaction=" https//:httpbin.org/post" formmethod="post">Post</button> </button>
+                </fieldset>
+            </form>
+        </article>
+    </main>
+    <hr>
+    <footer>
+        <p>
+            &lt;&lt;&lt; &copy;<a href="about.html">Kaizenet</a> &gt;&gt;&gt;
+        </p>
+        <p>
+            <a href="#">back to top</a>
+        </p>
+    </footer>
+</body>
+
+</html>
